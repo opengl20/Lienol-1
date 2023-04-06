@@ -23,5 +23,5 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #echo 'src-git bypass https://github.com/Cneupa/luci-app-bypass' >>feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb' >>feeds.conf.default
+echo 'src-git maxminddb https://github.com/jerrykuku/lua-maxminddb' >>feeds.conf.default
 echo 'src-git vssr https://github.com/jerrykuku/luci-app-vssr' >>feeds.conf.default
